@@ -1,8 +1,8 @@
 USE cpnvstore;
 
-INSERT INTO `cpnvstore`.`apps` (`name`, `description`) VALUES ('Joutes', 'Super app pour les joutes');
-INSERT INTO `cpnvstore`.`apps` (`name`, `description`) VALUES ('Runeo', 'gestion runs paleo');
-INSERT INTO `cpnvstore`.`apps` (`name`, `description`) VALUES ('Super jeu', 'Un super jeu');
+INSERT INTO `cpnvstore`.`apps` (`name`, `description`, `location`) VALUES ('Joutes', 'Super app pour les joutes', 'http://www.google.com/');
+INSERT INTO `cpnvstore`.`apps` (`name`, `description`, `location`) VALUES ('Runeo', 'gestion runs paleo', 'http://crouton.net/');
+INSERT INTO `cpnvstore`.`apps` (`name`, `description`, `location`) VALUES ('Super jeu', 'Un super jeu', 'http://play.google.com/');
 
 INSERT INTO `cpnvstore`.`roles` (`name`, `index`) VALUES ('admin', '4');
 INSERT INTO `cpnvstore`.`roles` (`name`, `index`) VALUES ('user', '2');

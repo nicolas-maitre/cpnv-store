@@ -19,3 +19,5 @@ Route::get('/app', function(){
 });*/
 
 Route::get('/', 'AppList@show');
+Route::get('/app/{appId}', 'Application@show');
+Route::get('/app/{appId}/download', 'Application@download');

@@ -52,6 +52,8 @@ CREATE TABLE IF NOT EXISTS `cpnvstore`.`apps` (
   `name` VARCHAR(100) NULL,
   `description` VARCHAR(1000) NULL,
   `image` INT NULL,
+  `download_count` INT NULL DEFAULT 0,
+  `location` VARCHAR(100) NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
